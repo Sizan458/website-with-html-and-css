@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    background-color: rgb(107, 66, 15);
+    padding: 20px;
+    color: #dedede;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+
+}
+.menus{
+    display: flex;
+}
+.logo-photo{
+    width: 120px;
+}
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+    font-family: fantasy;
+    cursor: pointer;
+
+
+}
+.item:hover{
+  color: cadetblue;
+}
